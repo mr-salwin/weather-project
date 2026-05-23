@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Production build output
+dist/
+
+# Local environment variables (Contains secret API keys!)
+.env
+.env.local
+
+# Tooling-specific caches
+.bolt/
+.vite/
